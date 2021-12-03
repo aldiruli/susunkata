@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>apel</name>
+    <events>
+        <variable constant="0" name="skor" sid="926581120849750" static="0" type="number">0</variable>
+        <variable constant="0" name="old_y" sid="219221132031923" static="0" type="number">0</variable>
+        <variable constant="0" name="old_x" sid="540152099779154" static="0" type="number">0</variable>
+        <event-block sid="587791243897217">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="297038400394531" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="501901525168718" type="Particles" />
+                <action behavior="LiteTween" id="10" name="Start" sid="286392533943377" type="pertanyaan">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="207123049635019">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="149133723544912" type="warna" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="196771466730460">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="642673011026710" type="warna">
+                            <param id="0" name="Object">peca_destin</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="886189345928163" type="warna">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">peca_destin.AnimationFrame</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="316686809819081" type="peca_destin">
+                            <param id="0" name="Animation">&quot;acert&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="646925388972201" type="peca_destin">
+                            <param id="0" name="Frame number">warna.AnimationFrame</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="161435167180104" type="peca_destin">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="478369805944441" type="warna" />
+                        <action id="-10" name="Add to" sid="653197266013181" type="System">
+                            <param id="0" name="Variable">skor</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="283332524358604" type="skor">
+                            <param id="0" name="Text">&quot;Skor : &quot; &amp;skor</param>
+                        </action>
+                        <action id="1" name="Set LMS Value" sid="974849437456731" type="ScormC2">
+                            <param id="0" name="Name">skor</param>
+                            <param id="1" name="Value">skor</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="554521092581456">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="375054401209986" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="354108673113435" type="warna">
+                            <param id="0" name="X">old_x</param>
+                            <param id="1" name="Y">old_y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="222100264886929">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="378875425093950" type="warna" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="876941819439179" type="System">
+                    <param id="0" name="Variable">old_x</param>
+                    <param id="1" name="Value">warna.X</param>
+                </action>
+                <action id="-9" name="Set value" sid="254690228709330" type="System">
+                    <param id="0" name="Variable">old_y</param>
+                    <param id="1" name="Value">warna.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="140028287408407">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="861854250609895" type="System">
+                    <param id="0" name="Variable">skor</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="963279893068426" type="berhasil">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="258350561877398" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="274223923876258">
+            <conditions>
+                <condition id="17" name="On tap object" sid="315856792843030" type="Touch">
+                    <param id="0" name="Object">berhasil</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="695228094614608">
+            <conditions>
+                <condition id="17" name="On tap object" sid="531105684384602" type="Touch">
+                    <param id="0" name="Object">pertanyaan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="789779270993403" type="pertanyaan">
+                    <param id="0" name="Reverse mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="478483991600429">
+            <conditions>
+                <condition id="17" name="On tap object" sid="179537377544590" type="Touch">
+                    <param id="0" name="Object">infopetunjuk_cilik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="804687284375077" type="infopetunjuk_cilik">
+                    <param id="0" name="Reverse mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="405570224752894">
+            <conditions>
+                <condition id="0" name="On function" sid="607551257530043" type="Function">
+                    <param id="0" name="Name">&quot;popup-in&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="189905729138874" type="pertanyaan">
+                    <param id="0" name="Width">0</param>
+                    <param id="1" name="Height">0</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="720086413715871" type="pertanyaan">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="617258639821737" type="pertanyaan">
+                    <param id="0" name="Target is">4</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">455</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="994743309728662" type="pertanyaan">
+                    <param id="0" name="Target is">5</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">325</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="922456113853443">
+            <conditions>
+                <condition id="0" name="On function" sid="699807194016917" type="Function">
+                    <param id="0" name="Name">&quot;popup-out&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="984811693698797" type="pertanyaan">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="374188551528924" type="pertanyaan">
+                    <param id="0" name="Target is">4</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="798271096792826" type="pertanyaan">
+                    <param id="0" name="Target is">5</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

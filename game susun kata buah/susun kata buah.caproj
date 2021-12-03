@@ -1,0 +1,1125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>susun kata buah</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>23900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Loïc Martinez" id="scormc2" version="1">Scorm C2</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="bg" sid="729543084820639">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="801976151298537" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\bg.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Apple" sid="408415317676994">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="11" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="590415640229121" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\Apple.png">
+                        <collision-poly>
+                            <point x="0.252174" y="0.330484" />
+                            <point x="0.5" y="0.15812" />
+                            <point x="0.755435" y="0.320513" />
+                            <point x="0.797826" y="0.5" />
+                            <point x="0.769565" y="0.698006" />
+                            <point x="0.5" y="0.931624" />
+                            <point x="0.241304" y="0.683761" />
+                            <point x="0.218478" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50078" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\Avocado.png">
+                        <collision-poly>
+                            <point x="0.329688" y="0.329173" />
+                            <point x="0.5" y="0.185647" />
+                            <point x="0.754687" y="0.24493" />
+                            <point x="0.8375" y="0.49922" />
+                            <point x="0.829687" y="0.829953" />
+                            <point x="0.5" y="0.837754" />
+                            <point x="0.248437" y="0.75195" />
+                            <point x="0.185937" y="0.49922" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\Banana.png">
+                        <collision-poly>
+                            <point x="0.305435" y="0.538314" />
+                            <point x="0.5" y="0.469349" />
+                            <point x="0.820652" y="0.316092" />
+                            <point x="0.819565" y="0.5" />
+                            <point x="0.793478" y="0.636015" />
+                            <point x="0.5" y="0.980843" />
+                            <point x="0.178261" y="0.685824" />
+                            <point x="0.441304" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\Jambu.png">
+                        <collision-poly>
+                            <point x="0.346512" y="0.282732" />
+                            <point x="0.5" y="0.154649" />
+                            <point x="0.787209" y="0.173624" />
+                            <point x="0.843023" y="0.5" />
+                            <point x="0.746512" y="0.793169" />
+                            <point x="0.5" y="0.931689" />
+                            <point x="0.2" y="0.836812" />
+                            <point x="0.217442" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\Jeruk.png">
+                        <collision-poly>
+                            <point x="0.089" y="0.089" />
+                            <point x="0.5" y="0.183" />
+                            <point x="0.772" y="0.228" />
+                            <point x="0.951" y="0.5" />
+                            <point x="0.856" y="0.856" />
+                            <point x="0.5" y="0.96" />
+                            <point x="0.194" y="0.806" />
+                            <point x="0.137" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\Mango.png">
+                        <collision-poly>
+                            <point x="0.383333" y="0.383333" />
+                            <point x="0.5" y="0.266667" />
+                            <point x="0.747222" y="0.252778" />
+                            <point x="0.741667" y="0.5" />
+                            <point x="0.663889" y="0.663889" />
+                            <point x="0.5" y="0.755556" />
+                            <point x="0.241667" y="0.758333" />
+                            <point x="0.325" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\NicePng_watermelon-png_124941.png">
+                        <collision-poly>
+                            <point x="0.143333" y="0.146259" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853333" y="0.14966" />
+                            <point x="1" y="0.5" />
+                            <point x="0.856667" y="0.853741" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146667" y="0.85034" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\Pineapple.png">
+                        <collision-poly>
+                            <point x="0.363889" y="0.363889" />
+                            <point x="0.5" y="0.0666667" />
+                            <point x="0.625" y="0.375" />
+                            <point x="0.702778" y="0.5" />
+                            <point x="0.719444" y="0.719444" />
+                            <point x="0.5" y="0.922222" />
+                            <point x="0.272222" y="0.727778" />
+                            <point x="0.283333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500838" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\pngegg(10).png">
+                        <collision-poly>
+                            <point x="0.19" y="0.190955" />
+                            <point x="0.5" y="0.107203" />
+                            <point x="0.771667" y="0.229481" />
+                            <point x="0.96" y="0.499162" />
+                            <point x="0.62" y="0.61809" />
+                            <point x="0.5" y="0.98995" />
+                            <point x="0.243333" y="0.755444" />
+                            <point x="0.248333" y="0.499162" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\salak.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\Fruitsgraphics--1h4d1q2s6a0o73147d\PNGS\Strawberry.png">
+                        <collision-poly>
+                            <point x="0.285" y="0.285" />
+                            <point x="0.5" y="0.15" />
+                            <point x="0.78" y="0.22" />
+                            <point x="0.91" y="0.5" />
+                            <point x="0.765" y="0.765" />
+                            <point x="0.5" y="0.85" />
+                            <point x="0.18" y="0.82" />
+                            <point x="0.12" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="home" sid="106431325399541">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="406338987131209" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501672" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\design-complete-set-score-button-game-pop-up-icon-window-elements-creating-medieval-rpg-video-games\home.png">
+                        <collision-poly>
+                            <point x="0.301887" y="0.535117" />
+                            <point x="0.5" y="0.173913" />
+                            <point x="0.643396" y="0.632107" />
+                            <point x="0.662264" y="0.498328" />
+                            <point x="0.662264" y="0.401338" />
+                            <point x="0.5" y="0.722408" />
+                            <point x="0.298113" y="0.471572" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="warna" sid="292012860819483">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="375725793914731">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="26" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332121491726608" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\a.png">
+                        <collision-poly>
+                            <point x="0.35" y="0.35" />
+                            <point x="0.5" y="0.16" />
+                            <point x="0.68" y="0.32" />
+                            <point x="0.73" y="0.5" />
+                            <point x="0.77" y="0.77" />
+                            <point x="0.5" y="0.67" />
+                            <point x="0.23" y="0.77" />
+                            <point x="0.28" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\b.png">
+                        <collision-poly>
+                            <point x="0.281553" y="0.281553" />
+                            <point x="0.495146" y="0.165049" />
+                            <point x="0.679612" y="0.320388" />
+                            <point x="0.718447" y="0.495146" />
+                            <point x="0.699029" y="0.699029" />
+                            <point x="0.495146" y="0.76699" />
+                            <point x="0.281553" y="0.718447" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\c.png">
+                        <collision-poly>
+                            <point x="0.291262" y="0.291262" />
+                            <point x="0.495146" y="0.165049" />
+                            <point x="0.747573" y="0.252427" />
+                            <point x="0.407767" y="0.495146" />
+                            <point x="0.708738" y="0.708738" />
+                            <point x="0.495146" y="0.776699" />
+                            <point x="0.300971" y="0.699029" />
+                            <point x="0.223301" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\d.png">
+                        <collision-poly>
+                            <point x="0.271845" y="0.271845" />
+                            <point x="0.495146" y="0.194175" />
+                            <point x="0.699029" y="0.300971" />
+                            <point x="0.757282" y="0.495146" />
+                            <point x="0.699029" y="0.699029" />
+                            <point x="0.495146" y="0.796117" />
+                            <point x="0.281553" y="0.718447" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\e.png">
+                        <collision-poly>
+                            <point x="0.281553" y="0.281553" />
+                            <point x="0.495146" y="0.174757" />
+                            <point x="0.708738" y="0.291262" />
+                            <point x="0.68932" y="0.495146" />
+                            <point x="0.718447" y="0.718447" />
+                            <point x="0.495146" y="0.786408" />
+                            <point x="0.291262" y="0.708738" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\f.png">
+                        <collision-poly>
+                            <point x="0.330097" y="0.330097" />
+                            <point x="0.495146" y="0.203883" />
+                            <point x="0.737864" y="0.262136" />
+                            <point x="0.669903" y="0.495146" />
+                            <point x="0.621359" y="0.621359" />
+                            <point x="0.495146" y="0.776699" />
+                            <point x="0.330097" y="0.669903" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\g.png">
+                        <collision-poly>
+                            <point x="0.300971" y="0.300971" />
+                            <point x="0.495146" y="0.213592" />
+                            <point x="0.718447" y="0.281553" />
+                            <point x="0.796117" y="0.495146" />
+                            <point x="0.737864" y="0.737864" />
+                            <point x="0.495146" y="0.834951" />
+                            <point x="0.281553" y="0.718447" />
+                            <point x="0.203883" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\h.png">
+                        <collision-poly>
+                            <point x="0.242718" y="0.242718" />
+                            <point x="0.495146" y="0.407767" />
+                            <point x="0.747573" y="0.252427" />
+                            <point x="0.757282" y="0.757282" />
+                            <point x="0.495146" y="0.582524" />
+                            <point x="0.252427" y="0.747573" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\i.png">
+                        <collision-poly>
+                            <point x="0.427184" y="0.427184" />
+                            <point x="0.495146" y="0.194175" />
+                            <point x="0.592233" y="0.407767" />
+                            <point x="0.592233" y="0.592233" />
+                            <point x="0.495146" y="0.796117" />
+                            <point x="0.417476" y="0.582524" />
+                            <point x="0.427184" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\j.png">
+                        <collision-poly>
+                            <point x="0.300971" y="0.300971" />
+                            <point x="0.495146" y="0.23301" />
+                            <point x="0.679612" y="0.320388" />
+                            <point x="0.679612" y="0.495146" />
+                            <point x="0.669903" y="0.669903" />
+                            <point x="0.495146" y="0.796117" />
+                            <point x="0.291262" y="0.708738" />
+                            <point x="0.495146" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\k.png">
+                        <collision-poly>
+                            <point x="0.271845" y="0.271845" />
+                            <point x="0.495146" y="0.339806" />
+                            <point x="0.737864" y="0.262136" />
+                            <point x="0.621359" y="0.495146" />
+                            <point x="0.747573" y="0.747573" />
+                            <point x="0.495146" y="0.621359" />
+                            <point x="0.291262" y="0.708738" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\l.png">
+                        <collision-poly>
+                            <point x="0.359223" y="0.359223" />
+                            <point x="0.495146" y="0.184466" />
+                            <point x="0.543689" y="0.456311" />
+                            <point x="0.543689" y="0.495146" />
+                            <point x="0.747573" y="0.747573" />
+                            <point x="0.495146" y="0.786408" />
+                            <point x="0.349515" y="0.650485" />
+                            <point x="0.349515" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\m.png">
+                        <collision-poly>
+                            <point x="0.194175" y="0.194175" />
+                            <point x="0.495146" y="0.456311" />
+                            <point x="0.815534" y="0.184466" />
+                            <point x="0.84466" y="0.495146" />
+                            <point x="0.776699" y="0.776699" />
+                            <point x="0.223301" y="0.776699" />
+                            <point x="0.184466" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\n.png">
+                        <collision-poly>
+                            <point x="0.213592" y="0.213592" />
+                            <point x="0.495146" y="0.31068" />
+                            <point x="0.796117" y="0.203883" />
+                            <point x="0.786408" y="0.786408" />
+                            <point x="0.495146" y="0.640777" />
+                            <point x="0.223301" y="0.776699" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\o.png">
+                        <collision-poly>
+                            <point x="0.291262" y="0.291262" />
+                            <point x="0.495146" y="0.194175" />
+                            <point x="0.728155" y="0.271845" />
+                            <point x="0.834951" y="0.495146" />
+                            <point x="0.728155" y="0.728155" />
+                            <point x="0.495146" y="0.815534" />
+                            <point x="0.281553" y="0.718447" />
+                            <point x="0.194175" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\p.png">
+                        <collision-poly>
+                            <point x="0.320388" y="0.320388" />
+                            <point x="0.495146" y="0.194175" />
+                            <point x="0.737864" y="0.262136" />
+                            <point x="0.776699" y="0.495146" />
+                            <point x="0.650485" y="0.650485" />
+                            <point x="0.495146" y="0.796117" />
+                            <point x="0.330097" y="0.669903" />
+                            <point x="0.320388" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\q.png">
+                        <collision-poly>
+                            <point x="0.271845" y="0.271845" />
+                            <point x="0.495146" y="0.174757" />
+                            <point x="0.728155" y="0.271845" />
+                            <point x="0.805825" y="0.495146" />
+                            <point x="0.76699" y="0.76699" />
+                            <point x="0.495146" y="0.786408" />
+                            <point x="0.291262" y="0.708738" />
+                            <point x="0.184466" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\r.png">
+                        <collision-poly>
+                            <point x="0.281553" y="0.281553" />
+                            <point x="0.495146" y="0.194175" />
+                            <point x="0.699029" y="0.300971" />
+                            <point x="0.718447" y="0.495146" />
+                            <point x="0.718447" y="0.718447" />
+                            <point x="0.281553" y="0.718447" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\s.png">
+                        <collision-poly>
+                            <point x="0.300971" y="0.300971" />
+                            <point x="0.495146" y="0.184466" />
+                            <point x="0.718447" y="0.281553" />
+                            <point x="0.699029" y="0.699029" />
+                            <point x="0.495146" y="0.796117" />
+                            <point x="0.281553" y="0.718447" />
+                            <point x="0.31068" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\t.png">
+                        <collision-poly>
+                            <point x="0.252427" y="0.252427" />
+                            <point x="0.495146" y="0.223301" />
+                            <point x="0.737864" y="0.262136" />
+                            <point x="0.572816" y="0.495146" />
+                            <point x="0.572816" y="0.572816" />
+                            <point x="0.495146" y="0.825243" />
+                            <point x="0.407767" y="0.592233" />
+                            <point x="0.407767" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\u.png">
+                        <collision-poly>
+                            <point x="0.262136" y="0.262136" />
+                            <point x="0.495146" y="0.61165" />
+                            <point x="0.757282" y="0.242718" />
+                            <point x="0.776699" y="0.495146" />
+                            <point x="0.708738" y="0.708738" />
+                            <point x="0.495146" y="0.786408" />
+                            <point x="0.31068" y="0.68932" />
+                            <point x="0.252427" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\v.png">
+                        <collision-poly>
+                            <point x="0.252427" y="0.252427" />
+                            <point x="0.495146" y="0.456311" />
+                            <point x="0.757282" y="0.242718" />
+                            <point x="0.669903" y="0.669903" />
+                            <point x="0.495146" y="0.825243" />
+                            <point x="0.359223" y="0.640777" />
+                            <point x="0.300971" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\w.png">
+                        <collision-poly>
+                            <point x="0.213592" y="0.213592" />
+                            <point x="0.495146" y="0.223301" />
+                            <point x="0.796117" y="0.203883" />
+                            <point x="0.883495" y="0.495146" />
+                            <point x="0.76699" y="0.76699" />
+                            <point x="0.495146" y="0.61165" />
+                            <point x="0.213592" y="0.786408" />
+                            <point x="0.126214" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\x.png">
+                        <collision-poly>
+                            <point x="0.281553" y="0.281553" />
+                            <point x="0.495146" y="0.330097" />
+                            <point x="0.718447" y="0.281553" />
+                            <point x="0.631068" y="0.495146" />
+                            <point x="0.747573" y="0.747573" />
+                            <point x="0.495146" y="0.68932" />
+                            <point x="0.252427" y="0.747573" />
+                            <point x="0.368932" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\y.png">
+                        <collision-poly>
+                            <point x="0.262136" y="0.262136" />
+                            <point x="0.495146" y="0.359223" />
+                            <point x="0.757282" y="0.242718" />
+                            <point x="0.582524" y="0.582524" />
+                            <point x="0.495146" y="0.796117" />
+                            <point x="0.417476" y="0.582524" />
+                            <point x="0.368932" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504854" hotspotY="0.504854" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\hand-drawn-colorful-alphabet\z.png">
+                        <collision-poly>
+                            <point x="0.271845" y="0.271845" />
+                            <point x="0.495146" y="0.174757" />
+                            <point x="0.76699" y="0.23301" />
+                            <point x="0.621359" y="0.495146" />
+                            <point x="0.757282" y="0.757282" />
+                            <point x="0.495146" y="0.776699" />
+                            <point x="0.252427" y="0.747573" />
+                            <point x="0.349515" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="peca_destin" sid="878327958338083">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="26" loop="0" name="destin" pingpong="0" repeatcount="1" repeatto="0" sid="791117160329865" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game asset abngun datar\colorful-game-buttons-set\button_abubaru.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.864286" y="0.135714" />
+                            <point x="0.964286" y="0.5" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.5" y="0.95" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="26" loop="0" name="acert" pingpong="0" repeatcount="1" repeatto="0" sid="206314038709902" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\a.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\b.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\c.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\d.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\e.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\f.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\g.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\h.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\i.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\j.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\k.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\l.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\m.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\n.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\o.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\p.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\q.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\r.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\s.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\t.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\u.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\v.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\w.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\x.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\y.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\ffox\export\z.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pngwingcom" sid="115504624174829">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="941882161873539" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\pngwing.com.png">
+                        <collision-poly>
+                            <point x="0.0917647" y="0.119632" />
+                            <point x="0.923529" y="0.0996933" />
+                            <point x="0.934118" y="0.5" />
+                            <point x="0.908235" y="0.880368" />
+                            <point x="0.0929412" y="0.878834" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScormC2" sid="796023551299017">
+            <plugin id="scormc2" />
+        </object-type>
+        <object-type name="Function" sid="532419802083378">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="Touch" sid="850565903686792">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Mouse" sid="199527269581174">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="i" sid="699483168082868">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="192920075362899" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501672" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\design-complete-set-score-button-game-pop-up-icon-window-elements-creating-medieval-rpg-video-games\i.png">
+                        <collision-poly>
+                            <point x="0.349056" y="0.214047" />
+                            <point x="0.5" y="0.173913" />
+                            <point x="0.609434" y="0.207358" />
+                            <point x="0.660377" y="0.525084" />
+                            <point x="0.609434" y="0.70903" />
+                            <point x="0.343397" y="0.702341" />
+                            <point x="0.298113" y="0.471572" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pngwingcom2" sid="452625060049201">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="291516777633793" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\pngwing.com.png">
+                        <collision-poly>
+                            <point x="0.0917647" y="0.119632" />
+                            <point x="0.923529" y="0.0996933" />
+                            <point x="0.934118" y="0.5" />
+                            <point x="0.908235" y="0.880368" />
+                            <point x="0.0929412" y="0.878834" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="infopetunjuk_cilik" sid="848380180935132">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="955065097844877">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775582931998495" speed="5">
+                    <frame duration="1" hotspotX="0.501099" hotspotY="0.501538" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\infopetunjuk_cilik.png">
+                        <collision-poly>
+                            <point x="0.241758" y="0.338462" />
+                            <point x="0.498901" y="0.123077" />
+                            <point x="0.758242" y="0.338462" />
+                            <point x="0.76044" y="0.498462" />
+                            <point x="0.740659" y="0.636923" />
+                            <point x="0.498901" y="0.781538" />
+                            <point x="0.261538" y="0.633846" />
+                            <point x="0.23956" y="0.498462" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="skor" sid="926615285792795">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="pertanyaan" sid="834561021804603">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="943737273792543">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="922433909677840" speed="5">
+                    <frame duration="1" hotspotX="0.501099" hotspotY="0.501538" original-source="C:\Users\Eiji Ogawa\Downloads\game susun kata buah\pertanyaan.png">
+                        <collision-poly>
+                            <point x="0.241758" y="0.338462" />
+                            <point x="0.498901" y="0.123077" />
+                            <point x="0.758242" y="0.338462" />
+                            <point x="0.76044" y="0.498462" />
+                            <point x="0.740659" y="0.636923" />
+                            <point x="0.498901" y="0.781538" />
+                            <point x="0.261538" y="0.633846" />
+                            <point x="0.23956" y="0.498462" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="berhasil" sid="846385476747190">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="684986828488486">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="560580339823115" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\images\berhasil.png">
+                        <collision-poly>
+                            <point x="0.244" y="0.348571" />
+                            <point x="0.5" y="0.122857" />
+                            <point x="0.758" y="0.345714" />
+                            <point x="0.76" y="0.5" />
+                            <point x="0.74" y="0.628571" />
+                            <point x="0.5" y="0.777143" />
+                            <point x="0.26" y="0.628571" />
+                            <point x="0.24" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="967131168242255">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="235413145947854" speed="5">
+                    <frame duration="1" hotspotX="0.500424" hotspotY="0.500606" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\1(1).png">
+                        <collision-poly>
+                            <point x="0.24173" y="0.345455" />
+                            <point x="0.499576" y="0.0993939" />
+                            <point x="0.75827" y="0.345455" />
+                            <point x="0.780322" y="0.499394" />
+                            <point x="0.75827" y="0.654545" />
+                            <point x="0.499576" y="0.900606" />
+                            <point x="0.24173" y="0.654545" />
+                            <point x="0.219678" y="0.499394" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="246941553805722">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="356778382913418" speed="5">
+                    <frame duration="1" hotspotX="0.500424" hotspotY="0.500606" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\2(1).png">
+                        <collision-poly>
+                            <point x="0.24173" y="0.345455" />
+                            <point x="0.499576" y="0.0993939" />
+                            <point x="0.75827" y="0.345455" />
+                            <point x="0.780322" y="0.499394" />
+                            <point x="0.75827" y="0.654545" />
+                            <point x="0.499576" y="0.900606" />
+                            <point x="0.24173" y="0.654545" />
+                            <point x="0.219678" y="0.499394" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="770524032895904">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945952473163854" speed="5">
+                    <frame duration="1" hotspotX="0.500424" hotspotY="0.500606" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\3.png">
+                        <collision-poly>
+                            <point x="0.24173" y="0.345455" />
+                            <point x="0.499576" y="0.0993939" />
+                            <point x="0.75827" y="0.345455" />
+                            <point x="0.780322" y="0.499394" />
+                            <point x="0.75827" y="0.654545" />
+                            <point x="0.499576" y="0.900606" />
+                            <point x="0.24173" y="0.654545" />
+                            <point x="0.219678" y="0.499394" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="168056222787576">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="652654413246657" speed="5">
+                    <frame duration="1" hotspotX="0.500424" hotspotY="0.500606" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\4.png">
+                        <collision-poly>
+                            <point x="0.24173" y="0.345455" />
+                            <point x="0.499576" y="0.0993939" />
+                            <point x="0.75827" y="0.345455" />
+                            <point x="0.780322" y="0.499394" />
+                            <point x="0.75827" y="0.654545" />
+                            <point x="0.499576" y="0.900606" />
+                            <point x="0.24173" y="0.654545" />
+                            <point x="0.219678" y="0.499394" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="764068442370422">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="929329939434749" speed="5">
+                    <frame duration="1" hotspotX="0.500424" hotspotY="0.500606" original-source="C:\Users\Eiji Ogawa\Downloads\game warna\5.png">
+                        <collision-poly>
+                            <point x="0.24173" y="0.345455" />
+                            <point x="0.499576" y="0.0993939" />
+                            <point x="0.75827" y="0.345455" />
+                            <point x="0.780322" y="0.499394" />
+                            <point x="0.75827" y="0.654545" />
+                            <point x="0.499576" y="0.900606" />
+                            <point x="0.24173" y="0.654545" />
+                            <point x="0.219678" y="0.499394" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="153647930475785">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>apel.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>apel.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="ScormC2" uid="5" />
+        <global-instance type="Function" uid="10" />
+        <global-instance type="Touch" uid="11">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="12" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
